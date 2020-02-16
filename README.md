@@ -6,5 +6,6 @@
 2. https://reactjs.org/tutorial/tutorial.html#setup-option-2-local-development-environment
 3. https://www.youtube.com/watch?v=pKd0Rpw7O48
 4. https://mongoosejs.com/
+5. https://medium.com/recraftrelic/login-with-facebook-and-google-in-reactjs-990d818d5dab
 
 #### By: Jireh Baillo jgb2575, Asad Ahmed
