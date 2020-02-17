@@ -8,8 +8,10 @@ db.on('error', console.error.bind(console, 'connection error:'));
 db.once('open', function() {
     /*
     // Practice with mongoose & test connection
-    var kittySchema = new mongoose.Schema({
-        name: String
+    var dessertPostSchema = new mongoose.Schema({
+        user: String,
+        image: String
+
       });
     var Kitten = mongoose.model('Kitten', kittySchema);
     var silence = new Kitten({ name: 'Silence' });
@@ -21,6 +23,12 @@ db.once('open', function() {
     Kitten.find(function (err, kittens) {
         if (err) return console.error(err);
         console.log(kittens);
-      })*/  
-    console.log("Connected!");   
+      })
+    */
+   console.log("Connected!");   
 });
+
+/*
+Get request 
+Post request
+*/
