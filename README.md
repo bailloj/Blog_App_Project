@@ -9,5 +9,6 @@
 5. https://medium.com/recraftrelic/login-with-facebook-and-google-in-reactjs-990d818d5dab
 6. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 7. https://www.taniarascia.com/es6-syntax-and-feature-overview/
+8. https://medium.com/javascript-in-plain-english/how-to-schedule-cron-jobs-in-node-js-897215e2e5d3
 
 #### By: Jireh Baillo jgb2575, Ahad Ahmed aaa6436
