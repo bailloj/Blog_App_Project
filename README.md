@@ -10,5 +10,6 @@
 6. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 7. https://www.taniarascia.com/es6-syntax-and-feature-overview/
 8. https://medium.com/javascript-in-plain-english/how-to-schedule-cron-jobs-in-node-js-897215e2e5d3
+9. https://www.npmjs.com/package/node-cron
 
 #### By: Jireh Baillo jgb2575, Ahad Ahmed aaa6436
