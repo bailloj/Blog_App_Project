@@ -10,4 +10,4 @@
 6. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 7. https://www.taniarascia.com/es6-syntax-and-feature-overview/
 
-#### By: Jireh Baillo jgb2575, Asad Ahmed
+#### By: Jireh Baillo jgb2575, Ahad Ahmed aaa6436
