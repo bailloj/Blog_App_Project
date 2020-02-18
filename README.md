@@ -8,5 +8,6 @@
 4. https://mongoosejs.com/
 5. https://medium.com/recraftrelic/login-with-facebook-and-google-in-reactjs-990d818d5dab
 6. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
+7. https://www.taniarascia.com/es6-syntax-and-feature-overview/
 
 #### By: Jireh Baillo jgb2575, Asad Ahmed
