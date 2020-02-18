@@ -7,5 +7,6 @@
 3. https://www.youtube.com/watch?v=pKd0Rpw7O48
 4. https://mongoosejs.com/
 5. https://medium.com/recraftrelic/login-with-facebook-and-google-in-reactjs-990d818d5dab
+6. https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON
 
 #### By: Jireh Baillo jgb2575, Asad Ahmed
