@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Row, Col, Media, Form, Button, Jumbotron, Image,Carousel, Card, ListGroup} from 'react-bootstrap';
 import { GoogleLogin } from 'react-google-login';
-import { getAllPosts, savePost } from './Server/API.js'
+const { getAllPosts, savePost } =  require('./Server/API.js')
 const ScrollArea = require('react-scrollbar');
 
 

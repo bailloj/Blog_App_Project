@@ -1,4 +1,4 @@
-const uri = "mongodb+srv://AAA2502:AMAZING1@cluster0-i2p0i.gcp.mongodb.net/test?retryWrites=true&w=majority"
+const uri = "mongodb+srv://Blogger:blogger123@blogcluster-4fqsl.gcp.mongodb.net/test?retryWrites=true&w=majority"
 const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
@@ -18,8 +18,10 @@ var postSchema = new mongoose.Schema({
 });
 var Post = mongoose.model('Post', postSchema);
 db.on('error', console.error.bind(console, 'connection error:'));
+db.once('open', () => console.log("Connected!"))
 
-function funcName(userInfo) {
+
+function savePost(userInfo) {
     // Practice with mongoose & test connection
     var currentPost = new Post({ ...userInfo });
     //console.log(userInfo); // 'Silence'
@@ -28,26 +30,29 @@ function funcName(userInfo) {
         console.log("No error!")
     });
     console.log("Connected!");
-};
+}
 
-var date1 = new Date;
-date1 = '2020-02-18';
-//db.once('open', () => funcName({name: 'Asad', title: 'Post1', date: date1, imgsrc: 'anything rn', body: 'body'}));
-db.once('open', Post.find(function (err, posts) {
-    if (err) return console.error(err);
-    // console.log(posts);
-    console.log(typeof (posts));
-    var i;
-    var postsArray = new Array();
-    for (i = 0; i < posts.length; i++) {
-        var postObject = posts[i].toObject();
-        postsArray[i] = postObject;
-        //var myJSON = JSON.stringify(postObject);
-        //console.log(myJSON);
-    }
-    return postsArray;
-}).sort('-date').exec(function (err, docs) { }));
+function getAllPosts(){
+    return Post.find(function (err, posts) {
+        if (err) return console.error(err);
+        // console.log(posts);
+        console.log(typeof (posts));
+        var i;
+        var postsArray = new Array();
+        for (i = 0; i < posts.length; i++) {
+            var postObject = posts[i].toObject();
+            postsArray[i] = postObject;
+            //var myJSON = JSON.stringify(postObject);
+            //console.log(myJSON);
+        }
+        return postsArray;
+    }).sort('-date').exec(function (err, docs) { })
+}
 
+module.exports={
+savePost: savePost(),
+getAllPosts: getAllPosts()
+}
 /*Post.find(function (err, posts) {
     if (err) return console.error(err);
    // console.log(posts);
